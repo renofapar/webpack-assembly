@@ -1,0 +1,29 @@
+$font-size: 1rem;
+$font-color: #000;
+$bgc: #eee;
+html {
+  font-size: $font-size;
+  color: $font-color;
+}
+
+body {
+  background-color: $bgc;
+  color: $font-color;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.logo {
+  max-width: 200px;
+  img {
+    width: 100%;
+  }
+}
